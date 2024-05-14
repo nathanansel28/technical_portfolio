@@ -1,4 +1,5 @@
 import { NextApiRequest, NextApiResponse } from 'next'
+import { Analytics } from "@vercel/analytics/react"
 
 import got from 'got'
 import { PageBlock } from 'notion-types'
